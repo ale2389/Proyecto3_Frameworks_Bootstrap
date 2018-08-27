@@ -96,6 +96,10 @@ nav a:link{
   display: block;
   }
 .img-social {
-  width: 6vw;
+  width: 7vw;
+  margin-top: 2vh;
+  }
+header, .redes-sociales{
+  text-align: center;
   }
 }
