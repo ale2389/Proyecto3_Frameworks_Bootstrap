@@ -77,8 +77,32 @@ padding-right: 1.5vw;
   padding-top: 2vh;
   padding-bottom: 2vh;
 }
+@media only screen and (max-width: 800px){
+  ul{
+    padding: 0;
+  }
+    li{
+      width: 100%;
+      text-align: center;
+      height: 6vh;
+    }
+  nav a:link{
+    padding: 105vh auto;
+  }
+  .activo{
+    background-color:#3fb7ae;
+    display: block;
+    }
+  .img-social {
+    width: 7vw;
+    margin-top: 2vh;
+    }
+  header, .redes-sociales{
+    text-align: center;
+    }
+}
+/*smarphones*/
 @media only screen and (max-width: 600px){
-
 ul{
   padding: 0;
 }
@@ -89,7 +113,6 @@ ul{
   }
 nav a:link{
   padding: 105vh auto;
-
 }
 .activo{
   background-color:#3fb7ae;
